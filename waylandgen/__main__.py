@@ -23,3 +23,5 @@ def gen(proj, protocol):
 wproot = Path("/usr/share/wayland-protocols")
 gen(Path(), wproot / "stable/xdg-shell/xdg-shell.xml")
 gen(Path(), wproot / "unstable/tablet/tablet-unstable-v2.xml")
+gen(Path(), wproot /
+	"unstable/pointer-gestures/pointer-gestures-unstable-v1.xml")
